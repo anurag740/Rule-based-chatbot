@@ -132,7 +132,7 @@ async def handle_message(update: Update, context):
 
 if __name__ == '__main__':
     # Replace 'YOUR_TOKEN_HERE' with your actual bot token
-    application = Application.builder().token('7323592304:AAEawDpnn_Kk0Z6KggPgONAa31j1gt1lOpg').build()
+    application = Application.builder().token('Replace 'YOUR_TOKEN_HERE' with your actual bot token').build()
 
     # Add handlers
     application.add_handler(CommandHandler("start", start))
